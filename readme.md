@@ -1,4 +1,4 @@
-<iframe width="420" height="315" src="http://www.youtube.com/embed/Gg5SNLGI_g0" frameborder="0" allowfullscreen></iframe>
+[![ScreenShot](https://raw.github.com/GabLeRoux/WebMole/master/ressources/WebMole_Youtube_Video.png)](http://www.youtube.com/embed/Gg5SNLGI_g0)
 
 # [Laravel](http://laravel.com) - A PHP Framework For Web Artisans
 
