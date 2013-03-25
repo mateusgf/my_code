@@ -4,7 +4,9 @@
 	{{ Form::open('/') }}
 		{{ Form::textarea('code', '', array('class' => 'textarea-editor', 'placeholder' => 'Type or paste some code here...')) }}
 
-		{{ Form::submit('Save my code!', array('class' => 'btn btn-success btn-save-code') ) }}
+		<div class="bt-group nav btn-nav-show">
+			{{ Form::submit('Save my code!', array('class' => 'btn btn-success btn-save-code') ) }}
+		</div>
 
 	{{ Form::close() }}
 

@@ -34,6 +34,7 @@
 
 Route::get('/, new', array('as' => 'new_code', 'uses' => 'codes@new'));
 Route::get('(:num)', array('as' => 'code', 'uses' => 'codes@show'));
+Route::get('(:num)/edit', array('as' => 'edit_code', 'uses' => 'codes@edit'));
 Route::post('/', 'codes@index');
 
 /*
