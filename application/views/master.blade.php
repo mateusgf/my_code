@@ -5,6 +5,8 @@
 
 	<title>My Code</title>
 
+	<link rel="shortcut icon" href="favicon.png" />
+
 	{{ HTML::style('css/bootstrap.min.css') }}
 	{{ HTML::style('css/style.css') }}
 
@@ -14,11 +16,8 @@
 </head>
 
 <body>
-
-
 	@yield('container')
 
-	
 	@yield('scripts')
 </body>
 </html>
