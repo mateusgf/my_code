@@ -1,0 +1,1 @@
+This is the /Applications/MAMP/htdocs/workspace/my_code/application/views/code/index.blade.php view
