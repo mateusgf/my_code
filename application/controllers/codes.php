@@ -33,14 +33,26 @@ class Codes_Controller extends Base_Controller {
         return View::make('code.show', $code->to_array());
     }    
 
-	public function get_edit()
+	public function get_edit($id)
     {
+        $code = Code::find($id);
 
+        if ($code) {
+            return View::make('code.new', $code->to_array());
+        }
+        else
+        {
+            return Redirect::to_route('new_code');
+        }
+
+
+        
     }    
 
 	public function get_new()
     {
-        return View::make('code.new');
+        $empty_code = array('code' => '');
+        return View::make('code.new', $empty_code);
     }    
 
 	public function put_update()
