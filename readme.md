@@ -1,5 +1,5 @@
 
-# &lt;My Code&rt;
+# My Code
 
 My Code is an application built using Laravel 3.2 where you can paste or type a piece of code and share with your friends.
 
